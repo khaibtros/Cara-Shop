@@ -1,0 +1,59 @@
+#page-header.about-header {
+    background-image: url("img_ecommerce/about/banner.png");
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+#about-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-app h1{
+    text-align: center;
+}
+
+#about-app h1 a {
+    color:rgb(7, 176, 176);
+}
+
+#about-app video {
+    width: 70%;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/* ---------------css for Iphone X------------- */
+
+@media (max-width: 477px) {
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div {
+        padding-left: 0;
+    }
+
+    #about-app video {
+        width: 100%;
+    }
+}
